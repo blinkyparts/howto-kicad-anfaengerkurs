@@ -1,0 +1,21 @@
+# Backup folder
+KiCAD_Files/PD_trigger-board-backups/
+KiCAD-Files/Frog_LeeresProjekt/Frog-backups/
+KiCAD-Files/Frog_Fertig/Frog-backups
+
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~*
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
