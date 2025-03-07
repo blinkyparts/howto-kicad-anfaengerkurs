@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "58da8702-3cd5-44fc-9416-0d2fa0744fbb")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -91,7 +95,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -103,7 +107,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -176,11 +180,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -248,10 +257,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -272,7 +293,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -284,22 +305,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -345,10 +354,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_DIP_x01"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -500,12 +512,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V0"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -577,7 +594,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -589,7 +606,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -620,12 +637,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -716,12 +738,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -812,7 +839,96 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 162.814 93.726)
+		(end 214.884 122.936)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a65bb2f-d287-4440-894c-e20a10ce0388)
+	)
+	(rectangle
+		(start 110.49 63.5)
+		(end 161.29 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 613160c7-7acb-44e9-ac71-ceb30a9e36bd)
+	)
+	(rectangle
+		(start 110.49 93.98)
+		(end 161.29 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c8ee375-4306-4c2c-b0d4-be6c420810e7)
+	)
+	(rectangle
+		(start 162.56 63.5)
+		(end 214.63 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da5c3dc9-0881-44b1-acb8-94784e13c662)
+	)
+	(text "Zwei parallele LEDs.\nDer Strom kommt vom Schalter (VCC).\nNegative Seite ist wieder GND."
+		(exclude_from_sim no)
+		(at 189.23 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54922977-57b9-40b1-8bd9-44002a4baa3e")
+	)
+	(text "Wir definieren für KiCAD die PWR_FLAGs"
+		(exclude_from_sim no)
+		(at 135.128 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b11596c-82de-4ec7-8f4c-985cb3fa60b7")
+	)
+	(text "Die Batterie liefert 3V\nDie negative Seite wird das Netz \"GND\""
+		(exclude_from_sim no)
+		(at 136.144 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "810789b8-ed70-4bc3-a629-f7ae8150b186")
+	)
+	(text "Der Schalter schaltet 3V auf das Netz \"VCC\"."
+		(exclude_from_sim no)
+		(at 188.976 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e452dca8-b2fc-4b33-bc95-0fd9396266ec")
 	)
 	(junction
 		(at 198.12 115.57)
@@ -995,94 +1111,6 @@
 			(type default)
 		)
 		(uuid "e538cc1e-e9c1-4265-80a1-6f27dac890a2")
-	)
-	(rectangle
-		(start 162.814 93.726)
-		(end 214.884 122.936)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5a65bb2f-d287-4440-894c-e20a10ce0388)
-	)
-	(rectangle
-		(start 110.49 63.5)
-		(end 161.29 92.71)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 613160c7-7acb-44e9-ac71-ceb30a9e36bd)
-	)
-	(rectangle
-		(start 110.49 93.98)
-		(end 161.29 123.19)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6c8ee375-4306-4c2c-b0d4-be6c420810e7)
-	)
-	(rectangle
-		(start 162.56 63.5)
-		(end 214.63 92.71)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid da5c3dc9-0881-44b1-acb8-94784e13c662)
-	)
-	(text "Zwei parallele LEDs.\nDer Strom kommt vom Schalter (VCC).\nNegative Seite ist wieder GND."
-		(exclude_from_sim no)
-		(at 189.23 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54922977-57b9-40b1-8bd9-44002a4baa3e")
-	)
-	(text "Wir definieren für KiCAD die PWR_FLAGs"
-		(exclude_from_sim no)
-		(at 135.128 97.536 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b11596c-82de-4ec7-8f4c-985cb3fa60b7")
-	)
-	(text "Die Batterie liefert 3V\nDie negative Seite wird das Netz \"GND\""
-		(exclude_from_sim no)
-		(at 136.144 67.056 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "810789b8-ed70-4bc3-a629-f7ae8150b186")
-	)
-	(text "Der Schalter schaltet 3V auf das Netz \"VCC\"."
-		(exclude_from_sim no)
-		(at 188.976 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e452dca8-b2fc-4b33-bc95-0fd9396266ec")
 	)
 	(global_label "VCC"
 		(shape input)
@@ -2023,4 +2051,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
